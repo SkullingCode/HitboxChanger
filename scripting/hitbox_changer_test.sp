@@ -32,6 +32,7 @@ public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max
 	{
 		SetFailState("This plugin was made for use with Counter-Strike: Global Offensive only.");
 	}
+	RegPluginLibrary("hitbox");
 } 
 
 public void OnPluginStart()
